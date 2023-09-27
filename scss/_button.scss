@@ -1,0 +1,9 @@
+@import "variables";
+
+.button {
+  padding: 1rem 2rem;
+  background: $color-green;
+  color: $color-white;
+  font-size: 1rem;
+  border-radius: 3rem;
+}
