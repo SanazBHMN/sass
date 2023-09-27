@@ -4,6 +4,15 @@
   @return #{$num1 + $num2}rem;
 }
 
+@mixin section-styling($dir) {
+  display: flex;
+  flex-direction: $dir;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 2rem;
+}
+
 $colors: (
   "clr-primary": red,
   "clr-secondary": green,
@@ -11,6 +20,7 @@ $colors: (
   "clr-white": white,
   "clr-black": black,
   "clr-red": red,
+  "clr-blue": blue,
 );
 
 h1 {
@@ -32,5 +42,31 @@ h1 {
     &-link {
       color: map-get($colors, clr-white);
     }
+  }
+}
+
+.section1 {
+  @include section-styling(column);
+  background-color: map-get($colors, clr-blue);
+
+  &__title {
+    font-size: 1.5rem;
+  }
+
+  &__para {
+    color: map-get($colors, clr-white);
+  }
+}
+
+.section2 {
+  @include section-styling(row);
+  background-color: map-get($colors, clr-red);
+
+  &__title {
+    font-size: 1.5rem;
+  }
+
+  &__para {
+    color: map-get($colors, clr-white);
   }
 }
