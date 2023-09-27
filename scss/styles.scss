@@ -1,7 +1,12 @@
-$primary-color: yellow;
-$bg-primary-color: black;
+$colors: (
+  "clr-primary": red,
+  "clr-secondary": green,
+  "clr-gray": gray,
+  "clr-white": white,
+  "clr-black": black,
+);
 
 h1 {
-    color: $primary-color;
-    background-color: $bg-primary-color;
+  background-color: map-get($colors, clr-black);
+  color: map-get($colors, clr-white);
 }
