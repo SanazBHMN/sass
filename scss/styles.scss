@@ -1,5 +1,7 @@
-$color: blue;
+$primary-color: yellow;
+$bg-primary-color: black;
 
 h1 {
-    color: $color;
+    color: $primary-color;
+    background-color: $bg-primary-color;
 }
