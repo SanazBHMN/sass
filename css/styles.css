@@ -24,6 +24,14 @@ h1 {
 .section__content-link {
   color: white;
 }
+.section__title, .section__para {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+.section__para {
+  font-size: 1rem;
+}
 
 .section1 {
   display: flex;

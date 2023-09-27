@@ -43,6 +43,17 @@ h1 {
       color: map-get($colors, clr-white);
     }
   }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: map-get($colors, clr-white);
+  }
+
+  &__para {
+    @extend .section__title;
+    font-size: 1rem;
+  }
 }
 
 .section1 {
