@@ -29,6 +29,12 @@ h1 {
   font-size: add(2, 3);
 }
 
+%text-style {
+  font-size: 2rem;
+  font-weight: bold;
+  color: map-get($colors, clr-white);
+}
+
 .section {
   background-color: map-get($colors, clr-black);
 
@@ -45,13 +51,11 @@ h1 {
   }
 
   &__title {
-    font-size: 2rem;
-    font-weight: bold;
-    color: map-get($colors, clr-white);
+    @extend %text-style;
   }
 
   &__para {
-    @extend .section__title;
+    @extend %text-style;
     font-size: 1rem;
   }
 }
