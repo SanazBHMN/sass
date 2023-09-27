@@ -1,5 +1,9 @@
 @import "button";
 
+@function add($num1, $num2: 5) {
+  @return #{$num1 + $num2}rem;
+}
+
 $colors: (
   "clr-primary": red,
   "clr-secondary": green,
@@ -12,6 +16,7 @@ $colors: (
 h1 {
   background-color: map-get($colors, clr-black);
   color: map-get($colors, clr-white);
+  font-size: add(2, 3);
 }
 
 .section {
