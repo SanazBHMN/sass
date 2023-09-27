@@ -3,4 +3,17 @@ h1 {
   color: white;
 }
 
+.section {
+  background-color: black;
+}
+.section__content {
+  color: white;
+}
+.section__content-title {
+  color: red;
+}
+.section__content-link {
+  color: white;
+}
+
 /*# sourceMappingURL=styles.css.map */

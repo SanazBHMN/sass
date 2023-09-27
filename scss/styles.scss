@@ -4,9 +4,26 @@ $colors: (
   "clr-gray": gray,
   "clr-white": white,
   "clr-black": black,
+  "clr-red": red,
 );
 
 h1 {
   background-color: map-get($colors, clr-black);
   color: map-get($colors, clr-white);
+}
+
+.section {
+  background-color: map-get($colors, clr-black);
+
+  &__content {
+    color: map-get($colors, clr-white);
+
+    &-title {
+      color: map-get($colors, clr-red);
+    }
+
+    &-link {
+      color: map-get($colors, clr-white);
+    }
+  }
 }
