@@ -67,28 +67,10 @@ h1 {
 }
 
 .section3 div {
-  height: 10rem;
-  width: 10rem;
+  height: 2rem;
+  width: 2rem;
+  color: white;
 }
 .section3 .red {
   background-color: red;
-  color: white;
-}
-.section3 .green {
-  background-color: green;
-  color: white;
-}
-.section3 .blue {
-  background-color: blue;
-  color: white;
-}
-.section3 .yellow {
-  background-color: yellow;
-  color: white;
-}
-.section3 .black {
-  background-color: black;
-  color: white;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

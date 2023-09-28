@@ -85,3 +85,19 @@ h1 {
     color: map-get($colors, clr-white);
   }
 }
+
+.section3 {
+  div {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  $bg-colors: (red, green, blue, yellow, black);
+
+  @each $bg-color in $bg-colors {
+    .#{$bg-color} {
+      background-color: $bg-color;
+      color: map-get($colors, clr-white);
+    }
+  }
+}
