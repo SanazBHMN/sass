@@ -93,24 +93,28 @@ h1 {
 
 .container div {
   height: 10rem;
-  background-color: black;
   color: white;
   border: 1px solid white;
 }
 .container .box-1 {
   width: 100%;
+  background-color: red;
 }
 .container .box-2 {
   width: 50%;
+  background-color: green;
 }
 .container .box-3 {
   width: 33.3333333333%;
+  background-color: blue;
 }
 .container .box-4 {
   width: 25%;
+  background-color: yellow;
 }
 .container .box-5 {
   width: 20%;
+  background-color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */
