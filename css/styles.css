@@ -91,4 +91,26 @@ h1 {
   color: white;
 }
 
+.container div {
+  height: 10rem;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.container .box-1 {
+  width: 100%;
+}
+.container .box-2 {
+  width: 50%;
+}
+.container .box-3 {
+  width: 33.3333333333%;
+}
+.container .box-4 {
+  width: 25%;
+}
+.container .box-5 {
+  width: 20%;
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -101,3 +101,18 @@ h1 {
     }
   }
 }
+
+.container {
+  div {
+    height: 10rem;
+    background-color: map-get($colors, clr-black);
+    color: map-get($colors, clr-white);
+    border: 1px solid map-get($colors, clr-white);
+  }
+
+  @for $num from 1 through 5 {
+    .box-#{$num} {
+      width: calc(100% / $num);
+    }
+  }
+}
